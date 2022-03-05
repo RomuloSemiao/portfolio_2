@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1080px;
+}
+
+.flexbox {
+  display: flex;
+}
+
+body {
+  background-color: #001f3f;
+  color: #dee3e2;
+  font-family: 'Prompt', sans-serif;
+}
+
+/*  HEADER  */
+
+header {
+  font-family: 'Caveat', cursive;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px 0;
+}
+
+.header h1 {
+  font-size: 64px;
+}
+
+.header p {
+  font-size: 36px;
+}
+
+/*  ABOUT ME  */
+
+.about {
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.about p {
+  font-size: 36px;
+}
+
+/*  TOOLS  */
+
+.tools {
+  padding: 120px 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tools h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.tools .images{
+  justify-content: center;
+}
+
+.tools img{
+  opacity: 0.5;
+  transition: all .4s;
+}
+
+.tools img:hover {
+  transform: rotate(15deg) scale(1.1);
+  opacity: 1;
+}
+
+/*  SOFT SKILLS  */
+
+.soft-skills {
+  background-color: #00458F;
+}
+
+.soft-skills__content {
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+}
+
+.soft-skills h2 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 30px;
+}
+
+.soft-skills p {
+  font-size: 36px;
+  text-align: right;
+}
+
+/*  PROJECTS  */
+
+.projects {
+  margin: 120px auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects h2 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.projects div {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.projects img{
+  opacity: 0.5;
+  transition: all .4s;
+}
+
+.projects img:hover{
+  cursor: pointer;
+  transform: translateY(-5px) translateX(0px);
+  opacity: 1;
+}
+
+/*  FOOTER   */
+
+footer {
+  background-color: #00458F;
+  width: 100%;
+  padding: 10px 0;
+}
+
+footer ul {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-images img {
+  margin-left: 20px;
+}
